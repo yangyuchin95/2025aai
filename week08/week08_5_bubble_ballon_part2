@@ -4,13 +4,13 @@ void setup(){
 }
 void draw(){
   background(204);
-  ellipse(x,y-s/2,s*0.75,s);//µe®ğ²y
+  ellipse(x,y-s/2,s*0.75,s);//ç•«æ°£çƒ
   if(mousePressed)s += 2;
   if(mousePressed==false && y>s)y--;
 }
 float x = 0, y = 0, s = 0;
 void mousePressed(){
-  x = mouseX;//®ğ²y®y¼Ğ
+  x = mouseX;//æ°£çƒåº§æ¨™
   y = mouseY;
-  s = 1;//®ğ²y¤@¶}©lªº¤j¤p
+  s = 1;//æ°£çƒä¸€é–‹å§‹çš„å¤§å°
 }
